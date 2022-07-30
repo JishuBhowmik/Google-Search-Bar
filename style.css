@@ -1,0 +1,21 @@
+h1{
+    color: rgb(255, 0, 234);
+    background-color: azure;
+
+}
+body{
+    background-color: beige;
+ 
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.p1{ 
+border-width:5px;
+border-style: solid;
+border-color:red;
+border-radius: 15px;
+}
+#p2{
+    border: 5px solid green;
+    border-radius: 15px;
+}

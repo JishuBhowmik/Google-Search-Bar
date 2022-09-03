@@ -1,3 +1,107 @@
+ol{ 
+    font-style: italic;
+    border: 4px solid black;
+    padding: 10px 40px;
+    
+}
+.bg{ 
+    background: url(yoga.jpg)no-repeat center;
+}
+p{
+    
+}
+.box p{
+    text-align: center;
+    background-color: white;
+}
+.Box1{
+    width: 280px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    
+}
+.box2{
+    width: 130px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    bottom: 0%;
+    right: 0%;
+    top:0%;
+    left: 0%;
+    border-radius: 50%;
+
+}
+.box 3, 4 ,5, 6,{
+    float: left;
+}
+    
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+.box4{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+.box5{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.box6{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 100%;
+    border: 5px solid;
+    background-color: brown;
+    text-align: center;
+    display: inline-block;
+    position: sticky;/*(for keep fixed position)*/
+    top: 0cm;
+}
+.Jishu{
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    background-color: aquamarine;
+}
+p::after{
+    content: url(yoga.jpg);
+    font-family: 'Pacifico', cursive;
+    font-size: 2vw;
+    font-style: normal;
+    text-align: left;
+    border: 4px solid bisque;
+    overflow: auto;
+    max-width: 400px;
+    color: red;
+
+    
+}
+li{
+   list-style-type: square;
+}
+
+.fa{
+    font-size:5opx;
+    color: aqua;
+
+}
+ .settings{
+    font-size: 50px;
+    color: aquamarine;
+ }
 i{
     width: 800px;
     height: 50px;
@@ -30,11 +134,10 @@ a.visited{
     color: brown;
     background-color: beige;
 }
-li{
-    list-style-type: square;
+/*li{
     background-color: beige;
     list-style-position: outside;
-}
+}*/
 table, td, th{
     border: 2px solid tomato;
     width: 100%;
@@ -53,17 +156,25 @@ span{
     text-align: center;
     display: block;
 }
-p{
+/*p{
     width: 400px;
     height: 50px;
     background-color: black;
     color: white;
     padding:50px 40px;
 }
+*/
+
 h1{
     margin: 60px;
     width: 400px;
     height: 50px;
     outline: 50px solid green;
 
+}
+oI{
+    text-align: center;
+    list-style-type:lower-alpha;
+    list-style-position: inside;
+    
 }
